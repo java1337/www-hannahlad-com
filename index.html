@@ -2,17 +2,51 @@
 
 <head>
     <title>Home | Hannah Lad</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css">
     <style>
         img {
             width: 500px;
             height: 500px;
         }
+        
+        body {
+            background-color: powderblue;
+            text-align: center;
+            font-family: 'Tajawal', sans-serif;
+        }
+        
+        #header h1 {
+            color: pink;
+            font-size: 4em;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+        }
+        
+        .container {
+            background: rgb(206, 139, 206);
+        }
+        
+        img {
+            margin: 5px;
+        }
+        
+        .scale {
+            transform: scaleY(1.05);
+            padding-top: 5px;
+        }
     </style>
 </head>
 
 <body>
-    <h1>Welcome to my website</h1>
-    <p>Here is my latest masterpiece:</p>
-    <img src="images/20180525_rose_small.jpg">
+    <div id="header">
+        <h1>Hannah</h1>
+        <h2>Welcome to my website</h2>
+    </div>
+    <div id="body">
+        <div class="container">
+            <img src="images/20180525_rose_small.png" class="img-fluid">
+        </div>
+    </div>
 </body>
-</html
+
+</html>
